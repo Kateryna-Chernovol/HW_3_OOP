@@ -61,7 +61,6 @@ public class Car {
     public void stopEngine() {
         cruiseControl = false;
         setSpeed(0);
-        System.out.println("Speed: " + speed);
         runEngine = false;
         System.out.println("STOP Engine");
     }

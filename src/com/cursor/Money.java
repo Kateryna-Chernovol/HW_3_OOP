@@ -85,7 +85,7 @@ public class Money {
         double sum2 = grnPartValue2 * 1000 + coinsPartValue2 * 100;
 
         if (sum1 > sum2) {
-            System.out.println(grnPartValue1 + "," + coinsPartValue1 + " < " + grnPartValue2 + "," + coinsPartValue2);
+            System.out.println(grnPartValue1 + "," + coinsPartValue1 + " > " + grnPartValue2 + "," + coinsPartValue2);
         } else if (sum1 < sum2) {
             System.out.println(grnPartValue2 + "," + coinsPartValue2 + " > " + grnPartValue1 + "," + coinsPartValue1);
         } else if (sum1 == sum2) {
